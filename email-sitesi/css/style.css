@@ -1,0 +1,73 @@
+.navbar{
+    padding: 0 1rem;
+  }
+  .arkaplan-mavi{
+    background-color: #073b4c;
+  }
+  .nav-radius{
+    border-radius: 1rem;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .ust-alt-45px-bosluk{
+    padding: 45px 0;
+  }
+  .slogan{
+    font-family: 'Ubuntu';
+    font-size:2rem;
+    line-height:1.5;
+    margin-bottom: 10%;
+  }
+  .icon{
+    color: #ffd166;
+    margin-bottom: 5%;
+  }
+  /* YORUM BÖLÜMÜ */
+  .yorum{
+    padding: 5% 12%;
+  }
+  .yorum p {
+    font-size:1.5rem;
+    margin-bottom: 2rem;
+  }
+  .yorum img{
+    width: 10%;
+  }
+  #fiyatlandirma .container-fluid .row div{
+    margin-top: 10px;
+  }
+  /* ekran minimum 768px ise */
+  @media (min-width: 768px) {
+    .resim{
+      width: 50%;
+      transform: rotate(25deg);
+    }
+  }
+  /* ekran maximum 767px ise */
+  /* bizim 767px'den küçük cihazlar için eklediğimiz kod*/
+  @media (max-width: 767px) {
+    .resim{
+      margin-top:30px;
+      width: 50%;
+      transform: rotate(0deg);
+    }
+    .indirme-linkleri{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  /*minimum genişlik 992px ise çalışır*/
+  @media (min-width: 992px) {
+    .r-l-fluid-padding{
+      padding: 3% 15%;
+    }
+  }
+  /*maximum genişlik 991 ise çalışır*/
+  @media (max-width: 991px) {
+    .r-l-fluid-padding{
+      padding: 3% 3%;
+    }
+  }

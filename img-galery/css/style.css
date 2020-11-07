@@ -1,0 +1,12 @@
+.navbar-brand{
+    font-size: 1.8rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+.col-lg-3{
+    padding: 0;
+}
